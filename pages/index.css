@@ -1,42 +1,36 @@
-@import url("normalize.css");
+@import url("/vendor/normalize.css");
 
 .page {
+  min-width: 1100px;
+  max-width: 1600px;
   font-family: "Inter", Arial, sans-serif;
-  font-family: "Noto serif", Times New Roman, serif;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-size: 16px;
   line-height: 20px;
-  min-width: 1100px;
-  max-height: 1600px;
 }
 
 .header {
-  background-color: #ffffff;
-  background-image: url(/images/background_header.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
+  background-color: #ffffff;
+  background-image: url("/images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .logo {
   width: 125px;
   height: 142px;
-  padding-left: 30px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
   padding-top: 30px;
   padding-right: 30px;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color ease-in-out 0.2s;
 }
 
 .nav__links {
@@ -47,6 +41,21 @@
   padding-left: 0;
   margin-top: 8px;
   margin-bottom: 8px;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color ease-in-out 0.2s;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .nav__link:hover {
@@ -55,40 +64,89 @@
 
 .header__title {
   display: flex;
+  flex-wrap: wrap;
   max-width: 729px;
-  padding-left: 80px;
-  padding-bottom: 28px;
-  padding-top: 202px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 202px;
+  margin-left: 80px;
+  z-index: 1;
+}
+
+.header__span-accent {
+  color: #2f80ed;
+  display: inline-block;
+  font-family: Noto Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
 }
 
 .header__description {
   max-width: 683px;
   padding-left: 80px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
+  position: absolute;
   width: 646px;
   height: 568px;
-  position: absolute;
   right: 5px;
   top: 124px;
+  z-index: 3;
 }
 
-.accent {
-  color: #2f80ed;
-}
-
-.header__footer {
+.header__footer_hours {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   bottom: 40px;
   left: 80px;
-  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__hours {
   column-gap: 20px;
-  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header__hour_margins-fix {
+  margin-bottom: 16px;
 }
 
 .header__address {
+  display: flex;
   position: absolute;
   right: 80px;
   bottom: 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.menu {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-image: url("/images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-color: #0a2750;
+  background-position: center;
+  background-size: cover;
 }

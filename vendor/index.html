@@ -9,7 +9,6 @@
       name="description"
       content="Great place to get coffee and to catchup. Book now!!"
     />
-    <link rel="stylesheet" href="/vendor/normalize.css" />
     <link rel="favicon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,7 +44,8 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="accent">Specialty coffee</span>in the Practicum Library
+          <span class="header__span-accent">Specialty coffee</span>in the
+          Practicum Library
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -56,17 +56,44 @@
           alt="Inside coffee shop"
           class="header__image"
         />
-        <div class="header__footer">
-          <p>Hours:</p>
-          <p>Monday - Friday (10:00 - 19:00)</p>
-          <p>Saturday - Sunday (11:00 - 18:00)</p>
+        <div class="header__footer_hours">
+          <p class="header__hours">Hours:</p>
+          <p class="header__hours">Monday - Friday (10:00 - 19:00)</p>
+          <p class="header__hours header__hour_margins-fix">
+            Saturday - Sunday (11:00 - 18:00)
+          </p>
         </div>
         <div class="header__address">
           <p>200 Success Avenue, The Town of Practicum</p>
         </div>
       </header>
-      <main>
-        <section></section>
+      <main class="content">
+        <section class="menu">
+          <div class="menu__title"><h1>Menu</h1></div>
+          <div class="menu__subtitle">
+            <p>
+              We brew coffee from locally roasted, Fairtrade certified beans and
+              use biodegradable cups. All teas from our collection are $2/cup.
+            </p>
+          </div>
+          <div class="menu__cards">
+            <div class="card">
+              <div class="card__title"><h3>Filter</h3></div>
+              <div class="card__list-item"></div>
+              <div class="card__list-divder"></div>
+            </div>
+            <div class="card">
+              <div class="card__title"></div>
+              <div class="card__list-item"></div>
+              <div class="card__list-divder"></div>
+            </div>
+            <div class="card">
+              <div class="card__title"></div>
+              <div class="card__list-item"></div>
+              <div class="card__list-divder"></div>
+            </div>
+          </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>
