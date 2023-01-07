@@ -18,6 +18,7 @@
   margin-bottom: 0;
 }
 
+/*
 .form__container {
   height: 100%;
   display: flex;
@@ -27,7 +28,18 @@
   padding-top: 0;
 }
 
+*/
+
 .reservation__form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 120px;
+  padding-top: 0;
+  align-items: center;
 }
 
 .form__fieldset {
@@ -82,10 +94,6 @@
   min-height: 60px;
 }
 
-.form__fieldset-checkbox {
-  padding-left: 60px;
-}
-
 .form__label[for="terms"] {
   display: inline;
   vertical-align: middle;
@@ -95,6 +103,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  align-self: center;
 }
 
 .form__input[type="checkbox"] {
@@ -102,7 +111,7 @@
   min-width: 20px;
   min-height: 20px;
   vertical-align: middle;
-  padding-left: 50px;
+  align-self: center;
 }
 
 .form__button[type="submit"] {
