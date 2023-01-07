@@ -146,7 +146,7 @@
   color: #6f6f6f;
 }
 
-*/ .footer {
+.footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   box-sizing: border-box;
   padding: 60px 100px 108px 80px;
