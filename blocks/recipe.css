@@ -52,12 +52,6 @@
   font-size: 20px;
   line-height: 30px;
   margin: 24px 0;
-}
-
-.span__break-aero {
-  margin-left: 310px;
-}
-
-.span__break-french {
-  margin-left: 280px;
+  justify-content: space-between;
+  display: flex;
 }

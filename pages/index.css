@@ -109,7 +109,7 @@
   z-index: 3;
 }
 
-.header__footer_hours {
+.header__paragraph {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -120,9 +120,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #6f6f6f;
 }
 
-.header__hours {
+.header__hour {
   column-gap: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -142,9 +143,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #6f6f6f;
 }
 
-.footer {
+*/ .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   box-sizing: border-box;
   padding: 60px 100px 108px 80px;
