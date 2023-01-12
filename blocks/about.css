@@ -3,10 +3,11 @@
     opacity: 0%;
   }
   50% {
-    opacity: 0.6%;
+    opacity: 60%;
   }
 
   100% {
+    opacity: 0%;
     transform: scale(1.2);
   }
 }
@@ -15,7 +16,6 @@
   position: relative;
   box-sizing: border-box;
   background-color: #0a2850;
-  padding: 100px 80px 400px;
   overflow: hidden;
   display: flex;
   margin: 0 auto;
@@ -25,30 +25,32 @@
   max-width: 251px;
   z-index: 3;
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   color: #ffffff;
+  padding-left: 80px;
+  padding-top: 100px;
 }
 
 .about__content {
+  display: flex;
+  flex-direction: column;
   max-width: 660px;
+  margin: 119px 80px 173px auto;
   gap: 20px;
-  position: absolute;
-  right: 80px;
-  top: 119px;
-  bottom: 173px;
 }
 
 .about__paragraph {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  margin: 0;
 }
 
 .about__circle {
