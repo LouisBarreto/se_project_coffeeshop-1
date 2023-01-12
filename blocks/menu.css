@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-color: #0a2750;
   background-position: center;
-  padding-bottom: 0;
 }
 
 .menu__title {
@@ -38,7 +37,7 @@
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   gap: 100px;
   padding-bottom: 100px;
   padding-top: 100px;

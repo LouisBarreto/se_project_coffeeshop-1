@@ -3,10 +3,6 @@
   flex-basis: 45%;
 }
 
-.card:nth-child(2) {
-  height: 225px;
-}
-
 .card__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
